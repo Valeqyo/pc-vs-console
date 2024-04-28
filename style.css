@@ -1,0 +1,52 @@
+*{box-sizing: border-box;}
+
+body,html{padding: 0; margin: 0;}
+
+body{
+    background-color: #1a1919;
+}
+
+
+h1{
+    color: rgb(113, 53, 151);
+    text-align: center;
+}
+
+.testo-sott{border-bottom: 5px solid white; padding: 12px 10px 20px 10px;}
+
+h2{
+    color: white;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.image-link {
+    text-align: center;
+}
+
+.label {
+    color: white;
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+
+@media (max-width: 900px) {
+    .inizio{font-size: 25px;}
+    .img{width: 100%;}
+    .pollo{font-size: 26px;}
+    .ridi{padding: 7px 5px 5px 5px;}
+}
